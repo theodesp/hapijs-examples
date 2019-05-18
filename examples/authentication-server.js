@@ -1,7 +1,7 @@
 'use strict';
 
 const Bcrypt = require('bcrypt');
-const Hapi = require('hapi');
+const Hapi = require('@hapi/hapi');
 const Basic = require('hapi-auth-basic');
 
 // Config

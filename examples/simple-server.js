@@ -1,10 +1,9 @@
 'use strict';
 
-const Hapi = require('hapi');
+const Hapi = require('@hapi/hapi');
 
 // Config
-const server = new Hapi.Server();
-server.connection({
+const server = new Hapi.Server({
   host: 'localhost',
   port: 3001
 });

@@ -1,6 +1,6 @@
 'use strict';
 
-const Hapi = require('hapi');
+const Hapi = require('@hapi/hapi');
 const Nes = require('nes');
 const Path = require('path');
 const Inert = require('inert');

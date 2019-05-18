@@ -1,6 +1,6 @@
 'use strict';
 
-const Hapi = require('hapi');
+const Hapi = require('@hapi/hapi');
 const Hoek = require('hoek');
 const Vision = require('vision');
 const Handlebars = require('handlebars');

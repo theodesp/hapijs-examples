@@ -1,7 +1,7 @@
 'use strict';
 // Load modules
 
-const Hapi = require('hapi');
+const Hapi = require('@hapi/hapi');
 const Inert = require('inert');
 const Vision = require('vision');
 const Tv = require('tv');
